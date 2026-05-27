@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "cacthis" {
   location = "canadacentral"
 
   tags = {
-    environment = "qat"
+    environment = "uat"
   }
 }
 
@@ -13,6 +13,6 @@ resource "azurerm_resource_group" "caethis" {
   location = "canadaeast"
 
   tags = {
-    environment = "qat"
+    environment = "uat"
   }
 }
