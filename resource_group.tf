@@ -5,6 +5,7 @@ resource "azurerm_resource_group" "cacthis" {
 
   tags = {
     environment = "uat"
+    servicetier = "nonprod"
   }
 }
 
@@ -14,5 +15,6 @@ resource "azurerm_resource_group" "caethis" {
 
   tags = {
     environment = "uat"
+    servicetier = "nonprod"
   }
 }
